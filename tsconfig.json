@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",                       /* Concatenate and emit output to single file. */
+    "outDir": "dist",                               /* Redirect output structure to the directory. */
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false, 
+  }
+}
