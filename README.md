@@ -32,12 +32,12 @@ npm run clean
 
 /convert — POST
 
-Eg : body = {
+### Eg : body = {
 	"fromCurrency": "LKR",
 	"amount": 234.0,
 	"toCurrency": "USD"
 }
-respose = {
+### respose = {
 	"amount": 1.20343267683,
 	"currency": "USD"
 }
