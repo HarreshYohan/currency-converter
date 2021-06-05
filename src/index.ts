@@ -28,7 +28,7 @@ app.post('/convert',
 
     async (req: Request, res: Response, next: Nextfunction) => {
         try{
-            //checking if there are any error sin the request body
+            //checking if there are any errors in the request body
             const errors = validationResult(req)
             if (!errors.isEmpty()) {
                 return res.status(400).json({
